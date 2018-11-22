@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>BMI Calculator</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Ubuntu"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="heading-img"></div>
+        <h1>Calculate and compare your BMI</h1>
+        <h2>
+            Enter your height and bodymass in the fields and let us calculate
+            your BMI
+        </h2>
+
+        <section>
+            <div class="person__cards">
+                <div class="person person__1">
+                    <div class="person__input">
+                        <label for="person1mass"
+                            >Person 1
+                            <input
+                                type="text"
+                                placeholder="Person 1 Mass in kg"
+                                id="person1mass"
+                                required
+                            />
+                        </label>
+                        <label for="person1height">
+                            <input
+                                type="text"
+                                placeholder="Person 1 Height in cm"
+                                id="person1height"
+                                required
+                            />
+                        </label>
+                    </div>
+                </div>
+                <div class="person person__2">
+                    <div class="person_input">
+                        <label for="person2Mass"
+                            >Person 2
+                            <input
+                                type="text"
+                                placeholder="Person 2 Mass in kg"
+                                id="person2mass"
+                                required
+                            />
+                        </label>
+                        <label for="person2height">
+                            <input
+                                type="text"
+                                placeholder="Person 2 Height in cm"
+                                id="person2height"
+                                required
+                            />
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button>Calculate my BMI and compare</button>
+        </section>
+
+        <script src="script.js"></script>
+    </body>
+</html>
