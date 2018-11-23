@@ -6,8 +6,8 @@ function calculateBMI() {
     const p2mass = document.querySelector("#person2mass").value;
     const p2height = document.querySelector("#person2height").value;
 
-    const bmi1 = p1mass / (p1height * p1height);
-    const bmi2 = p2mass / (p2height * p2height);
+    const bmi1 = p1mass / (p1height * p1height) * 10000;
+    const bmi2 = p2mass / (p2height * p2height) * 10000;
     debugger;
     console.log(`Hello`);
     console.log(bmi1, bmi2);
