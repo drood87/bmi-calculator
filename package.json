@@ -1,0 +1,22 @@
+{
+    "name": "bmi-calculator",
+    "version": "1.0.0",
+    "description": "This little App takes values of Body Mass and Height of two people and then compares them and calculates their BMI's. Written in plain Javascript",
+    "main": "script.js",
+    "scripts": {
+        "build": "browserify script.js > bundle.js && live-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/drood87/bmi-calculator.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/drood87/bmi-calculator/issues"
+    },
+    "homepage": "https://github.com/drood87/bmi-calculator#readme",
+    "dependencies": {
+        "lodash": "^4.17.11"
+    }
+}

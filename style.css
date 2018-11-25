@@ -13,7 +13,7 @@ label {
 .heading-img {
     background-image: url(banner_tools.jpg);
     height: 340px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
