@@ -4,7 +4,7 @@
     "description": "This little App takes values of Body Mass and Height of two people and then compares them and calculates their BMI's. Written in plain Javascript",
     "main": "script.js",
     "scripts": {
-        "build": "browserify script.js > bundle.js && live-server"
+        "build": "browserify script.js > bundle.js"
     },
     "repository": {
         "type": "git",

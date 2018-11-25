@@ -9,8 +9,8 @@ function calculateBMI() {
     const p2mass = document.querySelector("#person2mass").value;
     const p2height = document.querySelector("#person2height").value;
 
-    const bmi1 = (p1mass / (p1height * p1height)) * 10000;
-    const bmi2 = (p2mass / (p2height * p2height)) * 10000;
+    const bmi1 = Math.round((p1mass / (p1height * p1height)) * 10000);
+    const bmi2 = Math.round((p2mass / (p2height * p2height)) * 10000);
 
     if (bmi1 > bmi2) {
         para.textContent += `Person 1 has a higher BMI then Person 2 ${bmi1}, ${bmi2}!`;
